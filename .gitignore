@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Data sets (Never commit raw or processed logs)
+data/raw/
+data/processed/
+*.csv
+*.dat
+
+# Saved Machine Learning Models (Keep repo lightweight)
+src/models/saved_models/
+*.pkl
+*.pth
+*.keras
+*.h5
+*.pt
+
+# Streamlit specific
+.streamlit/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
